@@ -1,0 +1,77 @@
+<!Doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Template</title>
+		<link href="css/estilos.css" rel="stylesheet" />
+	</head>
+	<body class="template"> 
+		<div class="container">
+			<nav class="menu margens">
+				<a href="index.html">Home</a>
+				<a href="hosting.html">Hosting</a>
+				<a href="domain.html">Domain Names</a>
+				<a href="email.html">Email</a>
+				<a href="ecommerce.html">Ecommerce</a>
+				<a href="support.html">Support</a>
+			</nav>
+			
+			<nav class="mobile">
+			    <a href="#" class="botao">
+					<img src="imagens/mobile_menu.png"/>
+					Menu
+				</a>
+				<ul class="lista">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="hosting.html">Hosting</a></li>
+					<li><a href="domain.html">Domain Names</a></li>
+					<li><a href="email.html">Email</a></li>
+					<li><a href="ecommerce.html">Ecommerce</a></li>
+					<li><a href="support.html">Support</a></li>
+				</ul>
+			</nav>
+			
+			
+			<header class="banner">
+				
+			</header>
+			
+			<section class="principal margens ">
+				<article class="suport">
+					<h1>Área de Suporte</h1>
+					<h2 class="escuro">Clique nos temas para saber a definição. </h2>
+				</article>
+			</section>
+			
+			<footer class="final">
+				<nav class="menu2 margens">
+					<a href="index.html">Home</a>
+					<a href="hosting.html">Hosting</a>
+					<a href="domain.html">Domain Names</a>
+					<a href="email.html">Email</a>
+					<a href="ecommerce.html">Ecommerce</a>
+					<a href="support.html">Support</a>
+				</nav>
+				<p>Premium Hosting &copy; 2018 | Privacy Policy</p>
+			</footer>		
+		</div>
+		
+		<script src="js/jquery.min.js">
+		</script>
+
+		<script>
+		$(document).ready(function(){
+			$(".botao").click(function(){
+				$(".lista").toggle();
+			});
+		});
+		</script>
+		
+	</body>
+</html>	
+
+
+
+
+
